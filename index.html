@@ -255,6 +255,11 @@ footer .logo{width:88px;height:88px}
 .it .badge{position:absolute;top:12px;right:12px;font-size:.72rem;font-weight:600;padding:4px 10px;border-radius:999px;background:rgba(255,255,255,.15);color:#fff;backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.2)}
 .note{display:flex;gap:10px;align-items:center;font-size:.88rem;color:var(--muted);margin-top:20px;padding:12px 16px;background:var(--gold-soft);border-radius:12px;width:fit-content}
 
+.cat{margin-top:28px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:24px 28px;border-radius:20px;background:var(--g-navy);color:#fff}
+.cat-tx b{display:block;font-family:var(--f-head);font-size:1.2rem}
+.cat-tx span{color:#b9c4dc;font-size:.95rem}
+@media (max-width:600px){.cat{padding:22px 18px}.cat .btn{width:100%}}
+
 /* ===== packages ===== */
 .pkgs{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}
 @media (max-width:980px){.pkgs{grid-template-columns:1fr;max-width:520px;margin-inline:auto}}
@@ -519,6 +524,7 @@ footer .slogan{font-family:"Amiri",serif;font-size:1.6rem;color:var(--gold-2);ma
     <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
     <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.99-5.54 10.19-7.4 11.8a1 1 0 0 1-1.2 0C9.54 20.19 4 14.99 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></symbol>
     <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5v14"/></symbol>
+    <symbol id="i-dl" viewBox="0 0 24 24"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></symbol>
     <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
     <symbol id="i-shirt" viewBox="0 0 24 24"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></symbol>
     <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></symbol>
@@ -704,6 +710,10 @@ footer .slogan{font-family:"Amiri",serif;font-size:1.6rem;color:var(--gold-2);ma
       <figure class="it  rv" data-c="p" data-full="assets/work/thanks-shield.webp" tabindex="0"><img src="assets/work/thanks-shield-s.webp" alt="درع شكر وتقدير، قطيفة بالطباعة" loading="lazy"><span class="badge">دروع وجوايز</span><figcaption class="cap"><b>درع شكر وتقدير</b><span>قطيفة بالطباعة</span></figcaption></figure>
       <figure class="it wide rv" data-c="e" data-full="assets/work/iftar-crowd.webp" tabindex="0"><img src="assets/work/iftar-crowd-s.webp" alt="إفطار رمضان 2026، تجهيز فعالية كاملة" loading="lazy"><span class="badge">فعاليات</span><figcaption class="cap"><b>إفطار رمضان 2026</b><span>تجهيز فعالية كاملة</span></figcaption></figure>
     </div>
+    <div class="cat rv">
+      <div class="cat-tx"><b>عايز تشوف كل منتجاتنا؟</b><span>كتالوج منتجات إنجاز 2026 فيه الدروع والجوايز والبراويز والبنرات بالصور.</span></div>
+      <a class="btn btn-gold" href="downloads/engaz-catalog-2026.pdf" target="_blank" rel="noopener"><svg class="ico"><use href="#i-dl"/></svg>حمّل الكتالوج (PDF)</a>
+    </div>
   </div>
 </section>
 
@@ -853,6 +863,7 @@ footer .slogan{font-family:"Amiri",serif;font-size:1.6rem;color:var(--gold-2);ma
       <div class="d-tags"><span>بنرات ويفط المناقشات</span><span>هويات الأكاديميات</span><span>تيشرتات وكرنيهات</span><span>دروع وشهادات</span><span>تصميم سوشيال</span></div>
       <div class="d-acts">
         <a class="btn btn-gold" href="https://wa.me/201150945139?text=%D8%A3%D9%87%D9%84%D8%A7%D9%8B%20%D9%8A%D8%A7%20%D8%A3%D8%B3%D8%AA%D8%A7%D8%B0%20%D9%85%D8%AD%D9%85%D9%88%D8%AF%D8%8C%20%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D8%B3%D8%A3%D9%84%20%D8%B9%D9%86%20%D8%AA%D8%B5%D9%85%D9%8A%D9%85" target="_blank" rel="noopener"><svg class="ico"><use href="#i-chat"/></svg>كلّم محمود على واتساب</a>
+        <a class="btn btn-ghost" href="downloads/mahmoud-shaban-portfolio-2026.pdf" target="_blank" rel="noopener"><svg class="ico"><use href="#i-dl"/></svg>البورتفوليو (PDF)</a>
         <a class="btn btn-ghost" href="https://facebook.com/engazz2020" target="_blank" rel="noopener"><svg class="ico"><use href="#i-fb"/></svg>شغلنا على فيسبوك</a>
       </div>
       <span class="d-sig">إنجاز | تصميم محمود شعبان</span>
@@ -957,7 +968,7 @@ footer .slogan{font-family:"Amiri",serif;font-size:1.6rem;color:var(--gold-2);ma
       </div>
       <div>
         <h4>تواصل</h4>
-        <ul><li><a href="https://wa.me/201150945139" target="_blank" rel="noopener">واتساب: <span dir="ltr">01150945139</span></a></li><li><a href="tel:+201150945139">اتصل: <span dir="ltr">01150945139</span></a></li><li><a href="https://facebook.com/engazz2020" target="_blank" rel="noopener">فيسبوك</a></li><li><a href="#order">اطلب بنر مناقشتك</a></li></ul>
+        <ul><li><a href="https://wa.me/201150945139" target="_blank" rel="noopener">واتساب: <span dir="ltr">01150945139</span></a></li><li><a href="tel:+201150945139">اتصل: <span dir="ltr">01150945139</span></a></li><li><a href="https://facebook.com/engazz2020" target="_blank" rel="noopener">فيسبوك</a></li><li><a href="#order">اطلب بنر مناقشتك</a></li><li><a href="downloads/engaz-catalog-2026.pdf" target="_blank" rel="noopener">كتالوج المنتجات (PDF)</a></li></ul>
       </div>
     </div>
     <div class="f-bot"><span>© <span id="yr">2026</span> <b>إنجاز للدعاية والإعلان</b> · سوهاج</span><a href="#designer" class="f-credit"><img src="assets/mahmoud-logo-128.webp" width="40" height="40" alt="">تصميم محمود شعبان</a></div>
